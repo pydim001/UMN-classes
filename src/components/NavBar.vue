@@ -7,7 +7,9 @@
       <h1>UMN CLASSES</h1>
     </div>
     <div id="btn-div">
-      <button id="review">REVIEW</button>
+      <router-link to="/review">
+        <button id="review">REVIEW</button>
+      </router-link>
     </div>
   </div>
 </template>

@@ -1,10 +1,18 @@
 <template>
-  <router-view />
+  <NavBar />
+  <Department />
 </template>
 
 <script>
+import NavBar from "../components/NavBar.vue";
+import Department from "../components/Department.vue";
+
 export default {
-  name: "App",
+  name: "Home",
+  components: {
+    NavBar,
+    Department,
+  },
 };
 </script>
 
